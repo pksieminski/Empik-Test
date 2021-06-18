@@ -87,38 +87,13 @@ Project includes tests:
 Available from endpoint `GET` `/users/{login}`
 ```json
 {
-    "id": 1,
-    "code": "color",
-    "translations": [
-        {
-            "locale": "pl_PL",
-            "label": "Kolor"
-        }
-    ],
-    "options": [
-        {
-            "id": 1,
-            "code": "green",
-            "sortOrder": 0,
-            "translations": [
-                {
-                    "locale": "pl_PL",
-                    "label": "Zielony"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "code": "blue",
-            "sortOrder": 1,
-            "translations": [
-                {
-                    "locale": "pl_PL",
-                    "label": "Niebieski"
-                }
-            ]
-        }
-    ]
+    "id": 57523979,
+    "login": "pksieminski",
+    "name": "Patryk Siemiński",
+    "type": "User",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/57523979?v=4",
+    "createdAt": "2019-11-08T09:09:47Z",
+    "calculations": 0.0
 }
 ```
 
