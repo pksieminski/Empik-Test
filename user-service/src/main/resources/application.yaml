@@ -1,0 +1,26 @@
+github:
+  api:
+    host: https://api.github.com
+
+resilience4j:
+  retry:
+    instances:
+      github:
+        maxAttempts: 3
+        waitDuration: 1s
+        retryExceptions:
+          - org.springframework.web.reactive.function.client.WebClientRequestException
+          - java.util.concurrent.TimeoutException
+          - java.io.IOException
+  bulkhead:
+    instances:
+      github:
+        maxConcurrentCalls: 1
+  circuitbreaker:
+    instances:
+      github:
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 10
+        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 5s
+        failureRateThreshold: 50

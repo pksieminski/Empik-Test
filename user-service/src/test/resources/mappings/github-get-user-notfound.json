@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users/notfound"
+  },
+  "response": {
+    "status": 404,
+    "body": "{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/users#get-a-user\"\n}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
+

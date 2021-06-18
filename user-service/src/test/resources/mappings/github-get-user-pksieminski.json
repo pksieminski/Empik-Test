@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users/pksieminski"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\n  \"login\": \"pksieminski\",\n  \"id\": 57523979,\n  \"node_id\": \"MDQ6VXNlcjU3NTIzOTc5\",\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/57523979?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/pksieminski\",\n  \"html_url\": \"https://github.com/pksieminski\",\n  \"followers_url\": \"https://api.github.com/users/pksieminski/followers\",\n  \"following_url\": \"https://api.github.com/users/pksieminski/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/pksieminski/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/pksieminski/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/pksieminski/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/pksieminski/orgs\",\n  \"repos_url\": \"https://api.github.com/users/pksieminski/repos\",\n  \"events_url\": \"https://api.github.com/users/pksieminski/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/pksieminski/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": null,\n  \"company\": null,\n  \"blog\": \"\",\n  \"location\": null,\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"twitter_username\": null,\n  \"public_repos\": 0,\n  \"public_gists\": 0,\n  \"followers\": 0,\n  \"following\": 0,\n  \"created_at\": \"2019-11-08T09:09:47Z\",\n  \"updated_at\": \"2021-05-14T10:33:55Z\"\n}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
+
